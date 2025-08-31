@@ -1,0 +1,44 @@
+<% layout("/layouts/boilerplate") -%>
+
+<div class="row justify-content-center">
+  <div class="col-md-6 col-lg-5">
+    <div class="card shadow-lg p-4 rounded-3 mt-5">
+      <h2 class="text-center mb-4">Login to Wonderlust</h2>
+
+      <form action="/login" method="post" class="needs-validation" novalidate>
+        <!-- Username -->
+        <div class="form-group mb-3">
+          <label for="username" class="form-label">Username:</label>
+          <input 
+            class="form-control" 
+            id="username" 
+            name="username" 
+            placeholder="Enter username" 
+            type="text" 
+            required
+          >
+          <div class="invalid-feedback">Please provide a username.</div>
+        </div>
+
+        <!-- Password -->
+        <div class="form-group mb-3">
+          <label for="password" class="form-label">Password:</label>
+          <input 
+            class="form-control" 
+            id="password" 
+            name="password" 
+            placeholder="Enter password" 
+            type="password" 
+            required
+          >
+          <div class="invalid-feedback">Please provide a strong password.</div>
+        </div>
+
+        <!-- Submit button -->
+        <div class="d-grid">
+          <button class="btn btn-success">Login</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
