@@ -54,4 +54,19 @@ This application demonstrates my skills in building modern, responsive, and main
 ---
 
 ## 📁 Project Structure
+├── controllers/     ✅ Controller layer
+├── init/            ⚙️ App / DB initialization
+├── models/          ✅ Model layer (DB schema)
+├── public/          🌐 Static files (CSS, JS, images)
+├── routes/          ✅ Routing layer
+├── uploads/         📁 Uploaded images/files
+├── utils/           🛠 Helper functions
+├── views/           ✅ View layer (EJS / Pug / Handlebars)
+│
+├── app.js           🚀 Express app config
+├── middleware.js    🧩 Custom middleware
+├── cloudeConfig.js  ☁️ Cloudinary / upload config
+├── package.json
+└── .gitignore
+
 
